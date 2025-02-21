@@ -34,5 +34,10 @@ These are guidelines, not rules, and as such some of them are expected to be vio
 - ci/cd ensures that you know if something will break the build as soon as it happens
 - automated regression tests help to identify when you have broken some existing functionality
 
+# You should perform code reviews on new code 
+
+# Merge requests should not take more than a maximum of _ to review
+
+
 
 

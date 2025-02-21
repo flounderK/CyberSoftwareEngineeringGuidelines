@@ -35,6 +35,7 @@ These are guidelines, not rules, and as such some of them are expected to be vio
 - automated regression tests help to identify when you have broken some existing functionality
 
 # You should perform code reviews on new code 
+see https://github.com/google/eng-practices
 
 # Merge requests should not take more than a maximum of _ to review
 

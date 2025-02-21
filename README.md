@@ -38,6 +38,9 @@ These are guidelines, not rules, and as such some of them are expected to be vio
 
 # Merge requests should not take more than a maximum of _ to review
 
+# You should create issues or user stories in some sort of tracking system as you become aware of them
+
+
 
 
 

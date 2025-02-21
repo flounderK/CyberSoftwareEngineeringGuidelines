@@ -26,7 +26,9 @@ These are guidelines, not rules, and as such some of them are expected to be vio
 
 # You should document the repo pulling process in in-tree documentation
 
-# You should document the 
+# You should document the build environment in in-tree documentation
+
+# You should enable 
 
 # You should not fork internally maintained repos
 - Every time you fork a repo you ensure that code has to be committed to two places when fixing a bug in both repos

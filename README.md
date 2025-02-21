@@ -21,6 +21,13 @@ These are guidelines, not rules, and as such some of them are expected to be vio
 # You should not commit build artifacts to source control
 - all of the same reasons as not committing binaries to source control, plus you know you will be changing these items frequently. 
 
+# You should document the build process in in-tree documentation
+- this enables new developers to start up with development immediately
+
+# You should document the repo pulling process in in-tree documentation
+
+# You should document the 
+
 # You should not fork internally maintained repos
 - Every time you fork a repo you ensure that code has to be committed to two places when fixing a bug in both repos
 

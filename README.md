@@ -20,4 +20,13 @@ These are guidelines, not rules, and as such some of them are expected to be vio
 
 
 # You should not commit build artifacts to source control
+- all of the same reasons as not committing binaries to source control, plus you know you will be changing these items frequently. 
+
+# You should not fork internally maintained repos
+- Every time you fork a repo you ensure that code has to be committed to two places when fixing a bug in both repos
+
+## before choosing to fork
+- ensure that you at least attempt to commit to the existing repo
+
+
 

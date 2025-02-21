@@ -18,7 +18,6 @@ These are guidelines, not rules, and as such some of them are expected to be vio
 # You should use source control to track your source code
 - Source control helps to track down when bugs were introduced, keep a record of old good versions of code, etc
 
-
 # You should not commit build artifacts to source control
 - all of the same reasons as not committing binaries to source control, plus you know you will be changing these items frequently. 
 
@@ -27,6 +26,13 @@ These are guidelines, not rules, and as such some of them are expected to be vio
 
 ## before choosing to fork
 - ensure that you at least attempt to commit to the existing repo
+
+# You should not break the build on the main branch
+- any commits to a repo should not break the build
+
+# You should use some sort of CI/CD pipeline for building and testing
+- ci/cd ensures that you know if something will break the build as soon as it happens
+- automated regression tests help to identify when you have broken some existing functionality
 
 
 

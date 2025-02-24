@@ -102,3 +102,6 @@ These are guidelines, not rules, and as such some of them are expected to be vio
 
 ## Thou shall not hard-code file paths or IP addresses
 - Both will likely change
+
+## Thou shall resolve warnings and errors identified during build
+- If your complier says a branch cannot ever be reached or that there is a buffer overflow, you should resove that
